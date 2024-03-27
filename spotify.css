@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+body{
+    background-color: beige;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.brand img{
+    height: clamp(30px,5.5vh,50px);
+    width: clamp(30px,5.5vw,50px);
+}
+.brand{
+    display: flex;
+    font-size: clamp(20px,3vw,35px);
+    align-items: center;
+    color: white;
+}
+nav ul{
+    font-size: clamp(10px,2vw,25px);
+    height: 7vh;
+    background-color: black;
+    color:lightgrey;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+nav ul li{
+    padding-left: 10px;
+    padding-right: 12px;
+}
+.mid{
+   
+    /* margin: auto; */
+    min-height: 88vh;
+    width: 100vw;
+    font-size: 50px;
+    padding-top: 10vh;
+    /* color: azure; */
+    /* background-image: url("cover_photo.jpeg");
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    
+}
+.musicinfo{
+    height: 75vh;
+    width: 88vw;
+    color: whitesmoke;
+    background-image: url("cover_photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px;
+    text-transform: capitalize;
+
+}
+
+
+
+.bottom{
+    width: 100vw;
+    position: sticky;
+    bottom: 0px;
+    height: 12vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#bottom_logo{
+    display: flex;
+    margin: 4px;
+    cursor: pointer;
+}
+#bottom_logo i{
+    margin: 15px;
+}
+#slider {
+    width: 70%; /* Set the desired width */
+    cursor: pointer;
+}
+#play-pause{
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+i:hover{
+    transform: scale(1.5);
+}
+
+.song{
+    font-family: 'Varela Round', sans-serif;
+    width: 40%;
+    font-size: 1.5vw;
+    color: black;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.songname{
+    width: 10vw;
+}
+
+.player:hover{
+    cursor: pointer;
+}
+
+h3{
+    font-size:clamp(25px,4vw,40px);
+}
+
+@media only screen and (max-width: 850px) {
+    .song{
+        width: 65%;
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .song{
+        width: 85%;
+        font-size: 3.5vw;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .song{
+        width: 95%;
+        font-size: 4.5vw;
+    }
+}

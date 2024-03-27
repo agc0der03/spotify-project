@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>myownspotify</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="spotify.css">
+       
+    </head>
+    <body>
+        
+        <nav>
+            <ul>
+                <li class="brand"><img src="Spotify_App_Logo.svg.png" alt="error">Spotify</li>
+                
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+
+        <div class="mid">
+            <div class="musicinfo">
+                <h3>Best of Symphony of Pain</h3>
+                <div class="song">
+                    <div><img src="songcover/attention_cover.jpeg" width="45" height="45" ></div>
+                    <div class="songname">Attention</div>
+                    <div>3:28</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="0"></i></div>
+                </div>
+                <div class="song">
+                    <div><img src="songcover/oner.jpeg" width="45" height="45" ></div>
+                    <div class="songname">I Ain't Worried</div>
+                    <div>2:28</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="1"></i></div>
+                </div>
+                <div class="song">
+                    <div><img src="songcover/callum.jpeg" width="45" height="45" ></div>
+                    <div class="songname">At you worst</div>
+                    <div>2:47</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="2"></i></div>
+                </div>
+                <div class="song">
+                    <div><img src="songcover/onedcover.jpeg" width="45" height="45" id="3"></div>
+                    <div class="songname">Night Changes</div>
+                    <div>3:46</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="3"></i></div>
+                </div>
+                <div class="song">
+                    <div><img src="songcover/chainsmoker.jpeg" width="45" height="45" ></div>
+                    <div class="songname">takeaway</div>
+                    <div>3:29</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="4"></i></div>
+                </div>
+                <div class="song">
+                    <div><img src="songcover/onedcover.jpeg" width="45" height="45" ></div>
+                    <div class="songname">fireproof</div>
+                    <div>2:54</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="5"></i></div>
+                </div>
+                <div class="song">
+                    <div><img src="songcover/avicii.jpeg" width="45" height="45" ></div>
+                    <div class="songname">the nights</div>
+                    <div>2:56</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="6"></i></div>
+                </div>
+                <div class="song">
+                    <div><img src="songcover/articmonkey.jpeg" width="45" height="45" ></div>
+                    <div class="songname">i wanna be yours</div>
+                    <div>3:03</div>
+                    <div class="player"><i class="fa-solid fa-play-circle songItemPlay " id="7"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            
+            <div id="bottom_logo">
+                <i class="fa-solid fa-1x fa-shuffle"></i>
+                <i class="fa-solid fa-1x fa-backward-step" id="prvsong"></i>
+                <i class="fa-solid fa-2x fa-play" id="play-pause"></i>
+                <i class="fa-solid fa-1x fa-forward-step" id="nextsong"></i>
+                <i class="fa-solid fa-1x fa-repeat"></i>
+            </div>
+            <input type="range" id="slider" min="0" max="250" value="0">
+
+        </div>
+        <script src="spotify.js"></script>
+        <script src="https://kit.fontawesome.com/902b96dedf.js" crossorigin="anonymous"></script>
+        <script src="" async defer></script>
+        
+    </body>
+</html>
